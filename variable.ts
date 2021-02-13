@@ -1,1 +1,2 @@
-console.log("test");
+let money = 50;
+money = 10;
