@@ -23,6 +23,13 @@ function doubleItAndConsole(num: number) {
 const total = doubleItAndConsole(10);
 console.log(total);
 
+function totalValue(firstValue: number, secoundValue: number) {
+    return firstValue + secoundValue;
+}
+const result= totalValue(20,40);
+console.log(result);
+
+
 
 //arrow function
 const multiply = (x: number, y: number) => x * y;
