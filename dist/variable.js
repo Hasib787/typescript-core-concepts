@@ -18,9 +18,8 @@ function doubleItAndConsole(num) {
 }
 const total = doubleItAndConsole(10);
 console.log(total);
-//arrow function
-const multiply = (x, y) => x * y;
-console.log(multiply(25, 6));
-let multiply2;
-multiply2 = (x, y) => x * y;
-console.log(multiply2(25, 6));
+function totalValue(firstValue, secoundValue) {
+    return firstValue + secoundValue;
+}
+const result = totalValue(20, 40);
+console.log(result);
