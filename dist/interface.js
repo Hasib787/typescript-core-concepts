@@ -15,4 +15,4 @@ const Ronaldo = {
 function getBonus(player, friends) {
     return player.salary * 0.1;
 }
-console.log(getBonus(messi, ['Hasib', 'Zara']));
+console.log(getBonus(Ronaldo, ['Hasib', 'Zara']));
