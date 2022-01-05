@@ -9,7 +9,7 @@ class Person {
         return this.Name + '' + this._partner;
     }
 }
-const sam = new Person('Samuel', 'Sara', 'David');
-console.log('name', sam.Name, 'PartnerName', sam._partner, 'FatherName', sam.fatherName);
+const sam = new Person('Samuel', 'David', 'Sara');
+console.log('name', sam.Name, sam.fatherName);
 const samName = sam.getName();
 sam.Name = 'Hasib';
