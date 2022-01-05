@@ -11,7 +11,13 @@ console.log(studentId);
 
 //object
 
-type PersonType = { name: string; age: number, hobby: string }
+interface PersonType {
+  name: string;
+  age: number;
+  hobby: string;
+}
+
+// type PersonType = { name: string; age: number, hobby: string }
 let person1: PersonType = {
   name: "Masud Rana Hasib",
   age: 22,
@@ -19,8 +25,7 @@ let person1: PersonType = {
 };
 
 let person2: PersonType = {
-    name: "Hasib",
-    age: 28,
-    hobby: "Sleeping",
-}; 
-
+  name: "Hasib",
+  age: 28,
+  hobby: "Sleeping",
+};
