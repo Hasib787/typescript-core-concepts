@@ -9,6 +9,10 @@ let studentId: stringOrNumber = 154542;
 studentId = "wen2-44111";
 console.log(studentId);
 
+//String Literal Types
+type direction = "left" | "right" | "top" | "bottom";
+let gameDirection: direction = "top"; 
+
 //object
 
 interface PersonType {
