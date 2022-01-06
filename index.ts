@@ -40,7 +40,8 @@ const students: PersonType[] = [
   { name: "Masud", age: 22, hobby: "Coding" },
   { name: "Rana", age: 22, hobby: "Coding" },
 ];
-// console.log(students);
+console.log(students);
+
 
 //function
 
@@ -63,5 +64,7 @@ const introduce = ({name, age}:PersonType):void => {
   hobby: "Watch Movie",
 })
 console.log(isIntroduce);
+
+
 
 
