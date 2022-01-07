@@ -11,7 +11,7 @@ console.log(studentId);
 
 //String Literal Types
 type direction = "left" | "right" | "top" | "bottom";
-let gameDirection: direction = "top"; 
+let gameDirection: direction = "top";
 
 //object
 
@@ -42,7 +42,6 @@ const students: PersonType[] = [
 ];
 console.log(students);
 
-
 //function
 
 const greetings = (name: string) => {
@@ -51,20 +50,20 @@ const greetings = (name: string) => {
 greetings("Hasib");
 
 const addNumbers = (a: number, b: number): number => {
-    return a+b;
+  return a + b;
 };
-console.log(addNumbers(5,6));
+console.log(addNumbers(5, 6));
 
-const introduce = ({name, age}:PersonType):void => {
-  console.log(`Hello I'm ${name}, and age ${age}!`)
-}
- const isIntroduce = introduce({
+const introduce = ({ name, age }: PersonType): void => {
+  console.log(`Hello I'm ${name}, and age ${age}!`);
+};
+const isIntroduce = introduce({
   name: "Hasib",
   age: 50,
   hobby: "Watch Movie",
-})
-console.log(isIntroduce);
+});
 
-
-
-
+const getArray = (arr: string[]): string[] => {
+  return arr;
+};
+getArray(["Hello"]);
