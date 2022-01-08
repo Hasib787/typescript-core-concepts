@@ -6,6 +6,7 @@ var isHungry;
 var studentId = 154542;
 studentId = "wen2-44111";
 console.log(studentId);
+var gameDirection = "top";
 // type PersonType = { name: string; age: number, hobby: string }
 var person1 = {
     name: "Masud Rana Hasib",
@@ -23,7 +24,7 @@ var students = [
     { name: "Masud", age: 22, hobby: "Coding" },
     { name: "Rana", age: 22, hobby: "Coding" },
 ];
-// console.log(students);
+console.log(students);
 //function
 var greetings = function (name) {
     console.log("Hello ".concat(name));
@@ -42,4 +43,14 @@ var isIntroduce = introduce({
     age: 50,
     hobby: "Watch Movie"
 });
-console.log(isIntroduce);
+var getArray = function (arr) {
+    return arr;
+};
+getArray(["Hello"]);
+//generic 
+var newArray = function (arr) {
+    return arr;
+};
+var arrayResult = newArray(["Apple", "Orange", "Mango"]);
+newArray([43, 34, 21]);
+console.log(arrayResult);

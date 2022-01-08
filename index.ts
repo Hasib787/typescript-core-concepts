@@ -68,8 +68,10 @@ const getArray = (arr: string[]): string[] => {
 };
 getArray(["Hello"]);
 
+//generic 
 const newArray = <T>(arr: T[]): T[] =>{
     return arr;
 }
-newArray<string>(["Apple","Orange", "Mango"]);
+ const arrayResult = newArray<string>(["Apple","Orange", "Mango"]);
 newArray<number>([43,34,21]);
+console.log(arrayResult);
